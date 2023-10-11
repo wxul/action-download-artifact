@@ -150,6 +150,7 @@ async function main() {
                     }
                     runID = run.id
                     core.info(`==> (found) Run ID: ${runID}`)
+                    core.setOutput('run_id', runID)
                     core.info(`==> (found) Run date: ${run.created_at}`)
                     break
                 }

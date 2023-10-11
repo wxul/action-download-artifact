@@ -91,6 +91,8 @@ outputs:
     description: Boolean output which is true if the artifact was found and false otherwise
   artifacts:
     description: JSON array with details about found artifacts
+  run_id:
+    description: Action run id which generate the artifact
 runs:
   using: node16
   main: main.js
