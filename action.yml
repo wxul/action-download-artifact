@@ -94,5 +94,5 @@ outputs:
   run_id:
     description: Action run id which generate the artifact
 runs:
-  using: node16
+  using: node20
   main: main.js
